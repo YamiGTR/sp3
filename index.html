@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Phần tiêu đề mở đầu  -->
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>Max</span>wheels</a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">services</a>
+        <a href="#featured">featured</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+
+    <!-- Phần tiêu đề ket thuc  -->
+
+    <!-- đăng nhập -->
+
+    <div class="login-form-container">
+      <span class="fas fa-times" id="close-login-form"></span>
+
+      <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box" />
+        <input type="password" placeholder="password" class="box" />
+        <p>foget your password <a href="#">click here</a></p>
+        <input type="submit" value="login now" class="btn" />
+        <p>or login with</p>
+        <div class="buttons">
+          <a href="#" class="btn">google</a>
+          <a href="#" class="btn">facebookd</a>
+        </div>
+        <p>don't have an account <a href="#">create one</a></p>
+      </form>
+    </div>
+
+    <!-- phần trang chủ bắt đầu  -->
+
+    <section class="home" id="home">
+      <h1 class="home-parallax" data-speed="-2">find your car</h1>
+      <img
+        class="home-parallax"
+        data-speed="5"
+        src="./img/porsche-1851246_640.jpg"
+        alt=""
+
+      ></img>
+      <a href="#" class="btn home-parallax" data-speed="7">explore cars</a>
+    </section>
+
+    <!-- phần trang chủ keets thuc  -->
+
+    <!-- Phần biểu tượng mở đàu  -->
+
+    <section class="icons-container">
+      <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+          <h3>150+</h3>
+          <p>branches</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>999+</h3>
+          <p>cars sold</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h3>650+</h3>
+          <p>happy clients</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>99TT+</h3>
+          <p>new cars</p>
+        </div>
+      </div>
+    </section>
+    <!-- Phần biểu tượng kết thúc  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
